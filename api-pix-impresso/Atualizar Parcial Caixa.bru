@@ -1,0 +1,19 @@
+meta {
+  name: Atualizar Parcial Caixa
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:8080/caixas/2
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+  
+  "saldo": 5150
+  
+  }
+}

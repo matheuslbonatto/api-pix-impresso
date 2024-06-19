@@ -1,0 +1,18 @@
+meta {
+  name: Atualizar Total Caixa
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:8080/caixas/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+  "localizacao": "pinheiros",
+  "saldo": 8000
+  }
+}
