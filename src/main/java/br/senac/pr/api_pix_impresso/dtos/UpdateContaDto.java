@@ -1,7 +1,6 @@
 package br.senac.pr.api_pix_impresso.dtos;
 
 public class UpdateContaDto {
-    private long id;
     private long agencia;
     private long numeroConta;
     private long digitoVerificador;
@@ -15,7 +14,6 @@ public class UpdateContaDto {
     public UpdateContaDto(Long id, Long agencia, Long numeroConta, 
     Long digitoVerificador, String nome, String cpf, Long tipoConta,
     String numeroCartao, String senha, Double saldo) {
-        this.id = id;
         this.agencia = agencia;
         this.numeroConta = numeroConta;
         this.digitoVerificador = digitoVerificador;
@@ -25,14 +23,6 @@ public class UpdateContaDto {
         this.numeroCartao = numeroCartao;
         this.senha = senha;
         this.saldo = saldo;
-    }
-  
-    public Long getId() {
-      return id;
-    }
-  
-    public void setId(Long id) {
-      this.id = id;
     }
   
     public long getAgencia() {
