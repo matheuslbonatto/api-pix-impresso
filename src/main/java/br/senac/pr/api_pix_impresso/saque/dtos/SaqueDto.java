@@ -6,4 +6,5 @@ public record SaqueDto(
   Double valor,
   Long caixaId) {
 
+
 }   

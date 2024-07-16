@@ -13,5 +13,4 @@ public interface BaseService<T, ID> {
   public void update(T object);
 
   public void deleteById(ID id);
-
 }

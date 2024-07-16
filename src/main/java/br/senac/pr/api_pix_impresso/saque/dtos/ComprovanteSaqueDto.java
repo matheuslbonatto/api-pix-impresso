@@ -9,4 +9,5 @@ public record ComprovanteSaqueDto(
     LocalDateTime dataHora,
     Double valor) {
 
+
 }
